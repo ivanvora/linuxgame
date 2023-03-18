@@ -1,0 +1,2 @@
+git rebase -i -Xours origin/main   -- перебазирование интерактивное с автоматическим разрешением конфликтов в пользу исходной ветки из origin/main 
+git checkout origin/develop .      -- забрать файлы из origin/develop положить в корень .
