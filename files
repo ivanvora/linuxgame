@@ -1,1 +1,3 @@
 find . -type f -name "*.tsx" -exec cat {} \; >> source.txt  -- найти прочитать все файлы с расширением *.tsx и записать в файл source.txt
+cat ~/.zsh_history 
+tree -d -I node_modules >> tree.txt
